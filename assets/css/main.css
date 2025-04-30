@@ -2860,7 +2860,7 @@ input, select, textarea {
 			background: #fff;
 		}
 
-		#one.main.style1 {
+		#one.main.style1, #three.main.style1 {
 			padding: 8em 0 4em 0;
 		}
 		
@@ -3781,6 +3781,11 @@ input, select, textarea {
 		/* Two */
 
 			#two {
+				text-align: center;
+			}
+		
+			/* Three */
+			#three {
 				text-align: center;
 			}
 
