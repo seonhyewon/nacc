@@ -2853,7 +2853,7 @@ input, select, textarea {
 /* Main */
 
 	.main {
-		padding: 6em 0 4em 0 ;
+		padding: 8em 0 4em 0 ;
 	}
 
 		.main.style1 {
@@ -2928,6 +2928,7 @@ input, select, textarea {
 			background-attachment: fixed,							fixed;
 			background-image: url("images/overlay2.png"), url("images/overlay4.svg");
 			background-size: auto,							cover;
+			padding: 4em 0;
 		}
 
 			.main.style2 a {
@@ -3008,6 +3009,9 @@ input, select, textarea {
 
 			.main.style2 .icon.major {
 				color: #ffffff;
+			}
+			.main.style2 ul {
+				margin: 0;
 			}
 
 /* Header */
