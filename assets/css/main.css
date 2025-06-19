@@ -2877,9 +2877,7 @@ input, select, textarea {
 		}
 
 		/* 버튼효과 2ver(소아암,상괭이이야기) 추가수정 */
-		ul.actions.special.btn_box, ul.actions.special.btn_box2 {
-			padding: 0 40px;
-		}
+		
 		.main.style1 .con_1 .color_btn2:hover {
 			background: #5dd7da;
 			color: #fff;
@@ -2910,6 +2908,9 @@ input, select, textarea {
 		}
 			ul.actions.special.btn_box2 {
 				justify-content: center;
+		}
+		ul.actions.special.btn_box, ul.actions.special.btn_box2 {
+			padding: 0 40px;
 		}
 			.con_1 p {
 				padding: 0 2em;
@@ -3523,7 +3524,7 @@ input, select, textarea {
 							@media screen and (max-width: 736px) {
 
 								#header_nav nav > ul > li > a.menuToggle {
-									padding: 0 1.5em;
+									padding: 0 15px;
 								}
 
 								
@@ -3532,13 +3533,14 @@ input, select, textarea {
 								}
 								#header_nav nav > ul > li.icons-a a i {
 									font-size: 1.6em;
+									
 								}
 							}
 
 						@media screen and (max-width: 736px) {
 
 							#header_nav nav > ul > li > a {
-								padding: 0 0 0 1.5em;
+								padding: 0 15px;
 							}
 
 						}
