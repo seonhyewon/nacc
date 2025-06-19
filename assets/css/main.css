@@ -2877,8 +2877,8 @@ input, select, textarea {
 		}
 
 		/* 버튼효과 2ver(소아암,상괭이이야기) 추가수정 */
-		ul.actions.special.btn_box {
-			padding: 0 20px;
+		ul.actions.special.btn_box, ul.actions.special.btn_box2 {
+			padding: 0 40px;
 		}
 		.main.style1 .con_1 .color_btn2:hover {
 			background: #5dd7da;
